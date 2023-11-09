@@ -41,6 +41,7 @@ npm start
  - [x] Real-time weather updates
  - [x] Hourly forecast
  - [x] 8-day forecast
+ - [ ] Multi-language Support
  - [ ] Weather alerts
  - [ ] Dark mode
 See the open issues for a full list of proposed features (and known issues).
