@@ -1,0 +1,38 @@
+/* src/components/DailyForecast/DailyForecast.module.css */
+
+.dailyForecast {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Recharts overrides */
+  .recharts-responsive-container {
+    position: relative;
+  }
+  
+  .recharts-surface {
+    overflow: visible;
+  }
+  
+  .recharts-wrapper {
+    margin: auto;
+  }
+  
+  .recharts-cartesian-axis-tick-line {
+    display: none;
+  }
+  
+  .recharts-tooltip-wrapper {
+    pointer-events: none;
+  }
+  
+  .recharts-legend-wrapper {
+    bottom: 20px !important;
+  }
+  
+  /* You can add more styles and overrides as needed */
+  

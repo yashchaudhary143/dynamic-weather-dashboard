@@ -1,0 +1,44 @@
+/* src/components/WeatherCard/WeatherCard.module.css */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 16px;
+  text-align: center;
+}
+
+.cardHeader {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.temperature {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.weatherDescription {
+  color: #555;
+  margin: 10px 0;
+}
+
+.cardFooter {
+  background-color: #f7f7f7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Add more styles as needed */
