@@ -26,33 +26,26 @@ To get a local copy up and running, follow these simple steps.
 ### Prerequisites
 
 - npm
-  ```sh
   npm install npm@latest -g
-Installation
-Clone the repo
-sh
-git clone https://github.com/yashchaudhary143/dynamic-weather-dashboard
-Install NPM packages
-sh
+## Installation
+### 1.Clone the repo
+git clone https://github.com/yashchaudhary143/dynamic-weather-dashboard.git
+### 2.Install NPM packages
 npm install
-Enter your API key in a .env file
-env
+### 3.Enter your API key in a .env file
 REACT_APP_OPENWEATHER_API_KEY='YOUR API KEY'
-Start the application
-sh
+### 4.Start the application
 npm start
-Usage
-Use this space to show useful examples of how the application can be used, with screenshots and code snippets.
 
-Roadmap
- Real-time weather updates
- Hourly forecast
- 8-day forecast
- Weather alerts
- Dark mode
+## Roadmap
+ - [x] Real-time weather updates
+ - [x] Hourly forecast
+ - [x] 8-day forecast
+ - [ ] Weather alerts
+ - [ ] Dark mode
 See the open issues for a full list of proposed features (and known issues).
 
-Contributing
+## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -60,13 +53,13 @@ Create your Feature Branch (git checkout -b feature/AmazingFeature)
 Commit your Changes (git commit -m 'Add some AmazingFeature')
 Push to the Branch (git push origin feature/AmazingFeature)
 Open a Pull Request
-License
+## License
 Distributed under the MIT License. See LICENSE for more information.
 
-Contact
-Your Name - @your_twitter
+## Contact
+Your Name - Yash Chaudhary
 
-Project Link: [https://github.com/your_username_/weather-dashboard](https://github.com/yashchaudhary143/dynamic-weather-dashboard)https://github.com/yashchaudhary143/dynamic-weather-dashboard
+Project Link: https://github.com/yashchaudhary143/dynamic-weather-dashboard
 
 Acknowledgements
 OpenWeather API
