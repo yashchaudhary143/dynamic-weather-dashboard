@@ -135,7 +135,7 @@ const WeatherDashboard: React.FC = () => {
     }
   };
   useEffect(() => {
-    const apiKey = 'd06720ad5843de82bfcbaa12c147ce76'; // Your OpenWeatherMap API key
+    const apiKey =  process.env.REACT_APP_OPENWEATHER_API_KEY; // Your OpenWeatherMap API key
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
   
     // Fetch current weather data
