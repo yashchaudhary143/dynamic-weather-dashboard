@@ -61,6 +61,6 @@ Your Name - Yash Chaudhary
 
 Project Link: https://github.com/yashchaudhary143/dynamic-weather-dashboard
 
-Acknowledgements
+## Acknowledgements
 OpenWeather API
 React
