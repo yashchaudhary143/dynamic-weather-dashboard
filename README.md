@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Weather Dashboard Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Weather Dashboard Application is a dynamic, responsive web application that provides real-time weather updates, hourly forecasts, and an 8-day weather forecast. It uses the OpenWeather API to fetch and display accurate weather conditions.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- **Real-time Weather Updates:** Weather data refreshes at regular intervals.
+- **Hourly Forecast:** Detailed insights into the weather changes expected throughout the day.
+- **8-Day Weather Forecast:** Long-term weather predictions to help with planning ahead.
+- **City-wise Weather Search:** Users can search for and view weather conditions in different cities worldwide.
+- **Dynamic Clock Display:** Continuous clock display alongside weather updates.
+- **Responsive Design:** Seamless user experience across various devices and screen sizes.
+- **Dark Mode:** Enhanced visibility for nighttime browsing (future enhancement).
 
-### `npm start`
+## Technical Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React JS
+- **API:** OpenWeather API
+- **State Management:** React Hooks (`useState`, `useEffect`)
+- **Styling:** CSS Modules or Styled Components
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+To get a local copy up and running, follow these simple steps.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- npm
+  ```sh
+  npm install npm@latest -g
+Installation
+Clone the repo
+sh
+git clone https://github.com/yashchaudhary143/dynamic-weather-dashboard
+Install NPM packages
+sh
+npm install
+Enter your API key in a .env file
+env
+REACT_APP_OPENWEATHER_API_KEY='YOUR API KEY'
+Start the application
+sh
+npm start
+Usage
+Use this space to show useful examples of how the application can be used, with screenshots and code snippets.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Roadmap
+ Real-time weather updates
+ Hourly forecast
+ 8-day forecast
+ Weather alerts
+ Dark mode
+See the open issues for a full list of proposed features (and known issues).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Fork the Project
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+Push to the Branch (git push origin feature/AmazingFeature)
+Open a Pull Request
+License
+Distributed under the MIT License. See LICENSE for more information.
 
-### `npm run eject`
+Contact
+Your Name - @your_twitter
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Project Link: [https://github.com/your_username_/weather-dashboard](https://github.com/yashchaudhary143/dynamic-weather-dashboard)https://github.com/yashchaudhary143/dynamic-weather-dashboard
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acknowledgements
+OpenWeather API
+React
